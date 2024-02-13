@@ -1,20 +1,24 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2709
+{\rtf1\ansi\ansicpg1252\cocoartf2759
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 HelveticaNeue;
-\f3\fnil\fcharset0 Menlo-Bold;}
+\f3\fnil\fcharset0 Menlo-Bold;\f4\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red108\green197\blue37;\red57\green192\blue38;
 \red202\green51\blue35;\red56\green185\blue199;\red38\green38\blue38;\red242\green242\blue242;\red0\green0\blue0;
 \red66\green179\blue255;\red24\green24\blue24;\red193\green193\blue193;\red202\green202\blue202;\red194\green126\blue101;
 \red212\green214\blue154;\red245\green245\blue245;\red95\green124\blue3;\red117\green66\blue151;\red52\green92\blue158;
-\red240\green115\blue25;}
+\red240\green115\blue25;\red224\green232\blue240;\red18\green21\blue26;\red183\green111\blue179;\red24\green24\blue24;
+\red67\green192\blue160;\red212\green214\blue154;\red140\green211\blue254;\red202\green202\blue202;\red194\green126\blue101;
+\red185\green20\blue31;}
 {\*\expandedcolortbl;;\csgray\c0;\cssrgb\c48760\c79881\c18654;\cssrgb\c25706\c77963\c19557;
 \cssrgb\c83899\c28663\c18026;\cssrgb\c25546\c77007\c82023;\cssrgb\c20000\c20000\c20000;\cssrgb\c96078\c96078\c96078;\cssrgb\c0\c0\c0\c7059;
 \cssrgb\c30980\c75686\c100000;\cssrgb\c12157\c12157\c12157;\cssrgb\c80000\c80000\c80000;\cssrgb\c83137\c83137\c83137;\cssrgb\c80784\c56863\c47059;
 \cssrgb\c86275\c86275\c66667;\cssrgb\c96863\c96863\c96863;\cssrgb\c44314\c54902\c0;\cssrgb\c53725\c34902\c65882;\cssrgb\c25882\c44314\c68235;
-\cssrgb\c96078\c52941\c12157;}
+\cssrgb\c96078\c52941\c12157;\cssrgb\c90196\c92941\c95294;\cssrgb\c8627\c10588\c13333;\cssrgb\c77255\c52549\c75294;\cssrgb\c12157\c12157\c12157;
+\cssrgb\c30588\c78824\c69020;\cssrgb\c86275\c86275\c66667;\cssrgb\c61176\c86275\c99608;\cssrgb\c83137\c83137\c83137;\cssrgb\c80784\c56863\c47059;
+\cssrgb\c78431\c15686\c16078;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh13620\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 INFORMATIQUE AVANCEES\
@@ -153,18 +157,34 @@ mysite/settings.py
 \pard\pardeftab720\partightenfactor0
 
 \fs24 \cf10 \cb11 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \outl0\strokewidth0 \strokec10 LANGUAGE_CODE\cf12 \strokec12  \cf13 \strokec13 =\cf12 \strokec12  \cf14 \strokec14 'fr-FR'\cf12 \cb1 \strokec12 \
+\CocoaLigature1 LANGUAGE_CODE\cf12  \cf13 =\cf12  \cf14 'fr-FR'\cf12 \cb1 \
 \
-\cf10 \cb11 \strokec10 TIME_ZONE\cf12 \strokec12  \cf13 \strokec13 =\cf12 \strokec12  \cf14 \strokec14 'Europe/Paris'\
+\cf10 \cb11 TIME_ZONE\cf12  \cf13 =\cf12  \cf14 'Europe/Paris'\
 \
-\pard\pardeftab720\partightenfactor0
-\cf10 \strokec10 STATIC_URL\cf12 \strokec12  \cf13 \strokec13 =\cf12 \strokec12  \cf14 \strokec14 '/static/'\
-\cf12 \cb1 \strokec12 \
-\cf10 \cb11 \strokec10 STATIC_ROOT\cf12 \strokec12  \cf13 \strokec13 =\cf12 \strokec12  \cf10 \strokec10 BASE_DIR\cf12 \strokec12  \cf15 \cb11 \strokec15 /\cf12 \cb11 \strokec12  \cf14 \strokec14 'static'\
+\cf10 STATIC_URL\cf12  \cf13 =\cf12  \cf14 '/static/'\
+\cf12 \cb1 \
+\cf10 \cb11 STATIC_ROOT\cf12  \cf13 =\cf12  \cf10 BASE_DIR\cf12  \cf15 /\cf12  \cf14 'static'\
 \
 \pard\pardeftab720\partightenfactor0
 
-\fs27\fsmilli13600 \cf7 \cb16 \outl0\strokewidth0 ALLOWED_HOSTS = [\cf17 '127.0.0.1'\cf7 , \cf17 '.pythonanywhere.com'\cf7 ]\
+\fs27\fsmilli13600 \cf7 \cb16 ALLOWED_HOSTS = [\cf17 '127.0.0.1'\cf7 , \cf17 '.pythonanywhere.com'\cf7 ]\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 \
 \
 \
@@ -176,22 +196,22 @@ mysite/settings.py
 \f1\fs27\fsmilli13600 \cf7 \cb16 \expnd0\expndtw0\kerning0
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf7 \cb16 \
+\cf7 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
 
 \fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 	\'95	\CocoaLigature0 Configuration de la base de donn\'e9es
 \fs24 \cf12 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \outl0\strokewidth0 \strokec12 \
+\CocoaLigature1 \
 \pard\pardeftab720\partightenfactor0
 \cf12 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \'97\'97\'97Ligne de commande\'97\'97\'97
+\f0 \cf0 \kerning1\expnd0\expndtw0 \'97\'97\'97Ligne de commande\'97\'97\'97
 \f1 \cf12 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec12 \
+\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 (myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % python manage.py migrate\
+\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 (myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % python manage.py migrate\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f3\b \cf6 Operations to perform:
@@ -256,14 +276,14 @@ mysite/settings.py
   Applying sessions.0001_initial...
 \f3\b \cf4  OK
 \f1\b0\fs24 \cf12 \expnd0\expndtw0\kerning0
-\CocoaLigature1 \outl0\strokewidth0 \strokec12 \
+\CocoaLigature1 \
 \pard\pardeftab720\partightenfactor0
 \cf12 \
 \
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
 
-\fs22 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 	\'95	\CocoaLigature0 Lancer le serveur web\
+\fs22 \cf2 \kerning1\expnd0\expndtw0 	\'95	\CocoaLigature0 Lancer le serveur web\
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
@@ -303,21 +323,23 @@ python manage.py runserver 0:8000
 \f2\fs26 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb9 \expnd0\expndtw0\kerning0
 mysite/settings.py
 \f0\fs24 \AppleTypeServices \cf0 \cb1 \kerning1\expnd0\expndtw0 \'97\'97\'97\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
 \f1 \cf10 \cb11 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec10 INSTALLED_APPS\cf12 \strokec12  \cf13 \strokec13 =\cf12 \strokec12  [\cb1 \
+INSTALLED_APPS\cf12  \cf13 =\cf12  [\cb1 \
 \pard\pardeftab720\partightenfactor0
-\cf12 \cb11     \cf14 \strokec14 'django.contrib.admin'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'django.contrib.auth'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'django.contrib.contenttypes'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'django.contrib.sessions'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'django.contrib.messages'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'django.contrib.staticfiles'\cf12 \strokec12 ,\cb1 \
-\cb11     \cf14 \strokec14 'blog.apps.BlogConfig'\cf12 \strokec12 ,\cb1 \
+\cf12 \cb11     \cf14 'django.contrib.admin'\cf12 ,\cb1 \
+\cb11     \cf14 'django.contrib.auth'\cf12 ,\cb1 \
+\cb11     \cf14 'django.contrib.contenttypes'\cf12 ,\cb1 \
+\cb11     \cf14 'django.contrib.sessions'\cf12 ,\cb1 \
+\cb11     \cf14 'django.contrib.messages'\cf12 ,\cb1 \
+\cb11     \cf14 'django.contrib.staticfiles'\cf12 ,\cb1 \
+\cb11     \cf14 'blog.apps.BlogConfig'\cf12 ,\cb1 \
 \cb11 ]\cb1 \
 \
+\pard\pardeftab720\partightenfactor0
 
-\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
 \CocoaLigature1 	\'95	\CocoaLigature0 Cr\'e9er un mod\'e8le de blog post\
@@ -331,24 +353,24 @@ blog/models.py
 \pard\pardeftab720\partightenfactor0
 
 \fs27\fsmilli13600 \cf18 \cb16 \expnd0\expndtw0\kerning0
-\CocoaLigature1 from\cf7 \cb16  django.conf \cf18 \cb16 import\cf7 \cb16  settings\
-\cf18 \cb16 from\cf7 \cb16  django.db \cf18 \cb16 import\cf7 \cb16  models\
-\cf18 \cb16 from\cf7 \cb16  django.utils \cf18 \cb16 import\cf7 \cb16  timezone\
+\CocoaLigature1 from\cf7  django.conf \cf18 import\cf7  settings\
+\cf18 from\cf7  django.db \cf18 import\cf7  models\
+\cf18 from\cf7  django.utils \cf18 import\cf7  timezone\
 \
 \
-\cf18 \cb16 class\cf7 \cb16  \cf19 \cb16 Post\cf7 \cb16 (\cf20 \cb16 models.Model\cf7 \cb16 ):\
+\cf18 class\cf7  \cf19 Post\cf7 (\cf20 models.Model\cf7 ):\
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\
-    title = models.CharField(max_length=\cf20 \cb16 200\cf7 \cb16 )\
+    title = models.CharField(max_length=\cf20 200\cf7 )\
     text = models.TextField()\
     created_date = models.DateTimeField(default=timezone.now)\
-    published_date = models.DateTimeField(blank=\cf20 \cb16 True\cf7 \cb16 , null=\cf20 \cb16 True\cf7 \cb16 )\
+    published_date = models.DateTimeField(blank=\cf20 True\cf7 , null=\cf20 True\cf7 )\
 \
-    \cf18 \cb16 def\cf7 \cb16  \cf19 \cb16 publish\cf7 \cb16 (\cf20 \cb16 self\cf7 \cb16 ):\
+    \cf18 def\cf7  \cf19 publish\cf7 (\cf20 self\cf7 ):\
         self.published_date = timezone.now()\
         self.save()\
 \
-    \cf18 \cb16 def\cf7 \cb16  \cf19 \cb16 __str__\cf7 \cb16 (\cf20 \cb16 self\cf7 \cb16 ):\
-        \cf18 \cb16 return\cf7 \cb16  self.title\
+    \cf18 def\cf7  \cf19 __str__\cf7 (\cf20 self\cf7 ):\
+        \cf18 return\cf7  self.title\
 \
 \
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
@@ -398,12 +420,11 @@ blog/admin.py
 \pard\pardeftab720\partightenfactor0
 
 \fs27\fsmilli13600 \cf18 \cb16 \expnd0\expndtw0\kerning0
-\CocoaLigature1 from\cf7 \cb16  django.contrib \cf18 \cb16 import\cf7 \cb16  admin\
-\cf18 \cb16 from\cf7 \cb16  .models \cf18 \cb16 import\cf7 \cb16  Post\
+\CocoaLigature1 from\cf7  django.contrib \cf18 import\cf7  admin\
+\cf18 from\cf7  .models \cf18 import\cf7  Post\
 \
 admin.site.register(Post)
 \fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
-\pard\pardeftab720\partightenfactor0
 \
 \
 \
@@ -454,7 +475,7 @@ Initialized empty Git repository in /Users/lebcirrima/Downloads/Master_SMSD/Proj
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97.gitignore\'97\'97\'97
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97Ligne de commande\'97\'97\'97
 \f1\fs22 \cf2 \CocoaLigature0 \
 \pard\pardeftab720\partightenfactor0
 
@@ -495,6 +516,92 @@ $RECYCLE.BIN/\
 Text\
 XPath: /pre[2]/code
 \fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97Ligne de commande\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+(myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % git status\
+On branch main\
+\
+No commits yet\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+	\cf5 .gitignore\cf2 \
+	\cf5 Rapport_avancement.rtf\cf2 \
+	\cf5 blog/\cf2 \
+	\cf5 intro_python.py\cf2 \
+	\cf5 manage.py\cf2 \
+	\cf5 mysite/\cf2 \
+	\cf5 requirements.txt\cf2 \
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+(myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % git add .\
+(myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % git commit -m "My Django app, first commit" \
+[main (root-commit) ef06022] My Django app, first commit\
+ 18 files changed, 823 insertions(+)\
+ create mode 100644 .gitignore\
+ create mode 100644 Rapport_avancement.rtf\
+ create mode 100644 blog/__init__.py\
+ create mode 100644 blog/admin.py\
+ create mode 100644 blog/apps.py\
+ create mode 100644 blog/migrations/0001_initial.py\
+ create mode 100644 blog/migrations/__init__.py\
+ create mode 100644 blog/models.py\
+ create mode 100644 blog/tests.py\
+ create mode 100644 blog/views.py\
+ create mode 100644 intro_python.py\
+ create mode 100755 manage.py\
+ create mode 100644 mysite/__init__.py\
+ create mode 100644 mysite/asgi.py\
+ create mode 100644 mysite/settings.py\
+ create mode 100644 mysite/urls.py\
+ create mode 100644 mysite/wsgi.py\
+ create mode 100644 requirements.txt\
+\pard\pardeftab720\partightenfactor0
+\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+\CocoaLigature1 	\'95	\CocoaLigature0 Publier votre code sur GitHub:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97Ligne de commande\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % 
+\f4\fs28 \cf21 \cb22 \expnd0\expndtw0\kerning0
+\CocoaLigature1 git remote add origin https://github.com/LebcirR/my-first-blog.git\
+git branch -M main\
+git push -u origin main
+\f1\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+Enumerating objects: 21, done.\
+Counting objects: 100% (21/21), done.\
+Delta compression using up to 8 threads\
+Compressing objects: 100% (19/19), done.\
+Writing objects: 100% (21/21), 9.05 KiB | 4.52 MiB/s, done.\
+Total 21 (delta 1), reused 0 (delta 0), pack-reused 0\
+remote: Resolving deltas: 100% (1/1), done.\
+To https://github.com/LebcirR/my-first-blog.git\
+ * [new branch]      main -> main\
+branch 'main' set up to track 'origin/main'.\
+\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+\CocoaLigature1 	\'95	\CocoaLigature0 Publier votre code sur GitHub:\
+\pard\pardeftab720\partightenfactor0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97Ligne de commande\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
 \pard\pardeftab720\partightenfactor0
 \
 \
@@ -505,4 +612,189 @@ XPath: /pre[2]/code
 \
 \
 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 S\'e9ance 13/02/2024\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+
+\f1\fs22 \cf2 	\'95	\CocoaLigature0 Les URL de Django:\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97mysite/urls.py\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf23 \cb24 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec23 from\cf12 \strokec12  \cf25 \strokec25 django\cf12 \strokec12 .\cf25 \strokec25 contrib\cf12 \strokec12  \cf23 \strokec23 import\cf12 \strokec12  \cf25 \strokec25 admin\cf12 \cb1 \strokec12 \
+\cf23 \cb24 \strokec23 from\cf12 \strokec12  \cf25 \strokec25 django\cf12 \strokec12 .\cf25 \strokec25 urls\cf12 \strokec12  \cf23 \strokec23 import\cf12 \strokec12  \cf26 \strokec26 path\cf12 \strokec12 , \cf26 \strokec26 include\cf12 \cb1 \strokec12 \
+\
+\cf27 \cb24 \strokec27 urlpatterns\cf12 \strokec12  \cf28 \strokec28 =\cf12 \strokec12  [\cb1 \
+\cb24     \cf26 \strokec26 path\cf12 \strokec12 (\cf29 \strokec29 'admin/'\cf12 \strokec12 , \cf25 \strokec25 admin\cf12 \strokec12 .\cf27 \strokec27 site\cf12 \strokec12 .\cf27 \strokec27 urls\cf12 \strokec12 ),\cb1 \
+\cb24     \cf26 \strokec26 path\cf12 \strokec12 (\cf29 \strokec29 ''\cf12 \strokec12 , \cf26 \strokec26 include\cf12 \strokec12 (\cf29 \strokec29 'blog.urls'\cf12 \strokec12 )),\cb1 \
+\cb24 ]\cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97blog/urls.py\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf23 \cb24 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec23 from\cf12 \strokec12  \cf25 \strokec25 django\cf12 \strokec12 .\cf25 \strokec25 urls\cf12 \strokec12  \cf23 \strokec23 import\cf12 \strokec12  \cf26 \strokec26 path\cf12 \cb1 \strokec12 \
+\cf23 \cb24 \strokec23 from\cf12 \strokec12  . \cf23 \strokec23 import\cf12 \strokec12  \cf25 \strokec25 views\cf12 \cb1 \strokec12 \
+\
+\cf27 \cb24 \strokec27 urlpatterns\cf12 \strokec12  \cf28 \strokec28 =\cf12 \strokec12  [\cb1 \
+\cb24     \cf26 \strokec26 path\cf12 \strokec12 (\cf29 \strokec29 ''\cf12 \strokec12 , \cf25 \strokec25 views\cf12 \strokec12 .post_list, \cf27 \strokec27 name\cf28 \strokec28 =\cf29 \strokec29 'post_list'\cf12 \strokec12 ),\cb1 \
+\cb24 ]\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\
+\pard\pardeftab720\partightenfactor0
+\
+\pard\pardeftab720\partightenfactor0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97Ligne de commande\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+(myvenv) lebcirrima@MacBook-Air-de-Lebcir Projet_scrapy % python manage.py runserver\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+Watching for file changes with StatReloader\
+Performing system checks...\
+\
+Exception in thread django-main-thread:\
+Traceback (most recent call last):\
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner\
+    self.run()\
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run\
+    self._target(*self._args, **self._kwargs)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/utils/autoreload.py", line 64, in wrapper\
+    fn(*args, **kwargs)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/core/management/commands/runserver.py", line 118, in inner_run\
+    self.check(display_num_errors=True)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/core/management/base.py", line 419, in check\
+    all_issues = checks.run_checks(\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/core/checks/registry.py", line 76, in run_checks\
+    new_errors = check(app_configs=app_configs, databases=databases)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/core/checks/urls.py", line 13, in check_url_config\
+    return check_resolver(resolver)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/core/checks/urls.py", line 23, in check_resolver\
+    return check_method()\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/urls/resolvers.py", line 416, in check\
+    for pattern in self.url_patterns:\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__\
+    res = instance.__dict__[self.name] = self.func(instance)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/urls/resolvers.py", line 602, in url_patterns\
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__\
+    res = instance.__dict__[self.name] = self.func(instance)\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/urls/resolvers.py", line 595, in urlconf_module\
+    return import_module(self.urlconf_name)\
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module\
+    return _bootstrap._gcd_import(name[level:], package, level)\
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module\
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/mysite/urls.py", line 21, in <module>\
+    path('', include('blog.urls')),\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/myvenv/lib/python3.9/site-packages/django/urls/conf.py", line 34, in include\
+    urlconf_module = import_module(urlconf_module)\
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module\
+    return _bootstrap._gcd_import(name[level:], package, level)\
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module\
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\
+  File "/Users/lebcirrima/Downloads/Master_SMSD/Projet_scrapy/blog/urls.py", line 5, in <module>\
+    path('', views.post_list, name='post_list'),\
+AttributeError: module 'blog.views' has no attribute 'post_list'\
+\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+\CocoaLigature1 	\'95	\CocoaLigature0 Vues Django - C\'92est l\'92heure de cr\'e9er:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97blog/views.py\'97\'97\'97
+\f1\fs22 \cf2 \CocoaLigature0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs27\fsmilli13600 \cf18 \cb16 \expnd0\expndtw0\kerning0
+\CocoaLigature1 def\cf7  \cf19 post_list\cf7 (\cf20 request\cf7 ):\
+    \cf18 return\cf7  render(request, \cf17 'blog/post_list.html'\cf7 , \{\})\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+\CocoaLigature1 	\'95	\CocoaLigature0 Introduction au HTML:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs27\fsmilli13600 \cf7 \cb16 \expnd0\expndtw0\kerning0
+\CocoaLigature1 blog\
+\uc0\u9492 \u9472 \u9472 \u9472 templates\
+    \uc0\u9492 \u9472 \u9472 \u9472 blog\
+\
+\
+\pard\pardeftab720\sa272\partightenfactor0
+\cf7 \cb16 post_list.html\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \'97\'97\'97
+\f2\fs26 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb9 \expnd0\expndtw0\kerning0
+blog/templates/blog/post_list.html
+\f0\fs24 \AppleTypeServices \cf0 \cb1 \kerning1\expnd0\expndtw0 \'97\'97\'97
+\f1\fs27\fsmilli13600 \cf7 \cb16 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\partightenfactor0
+\cf20 \cb16 <!DOCTYPE html>\cf7 \
+\pard\pardeftab720\partightenfactor0
+\cf30 \cb16 <html>\cf7 \cb16 \
+\cf30 \cb16 <body>\cf7 \cb16 \
+    \cf30 \cb16 <p>\cf7 \cb16 Bonjour !\cf30 \cb16 </p>\cf7 \cb16 \
+    \cf30 \cb16 <p>\cf7 \cb16 \'c7a marche !\cf30 \cb16 </p>\cf7 \cb16 \
+\cf30 \cb16 </body>\cf7 \cb16 \
+\cf30 \cb16 </html>
+\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa272\partightenfactor0
+\
+\CocoaLigature1 	\'95	\CocoaLigature0 Une derni\'e8re chose : d\'e9ployer!\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \'97\'97\'97
+\f2\fs26 \AppleTypeServices\AppleTypeServicesF65539 \cf7 \cb9 \expnd0\expndtw0\kerning0
+ligne de commande
+\f0\fs24 \AppleTypeServices \cf0 \cb1 \kerning1\expnd0\expndtw0 \'97\'97\'97\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 \
 }
